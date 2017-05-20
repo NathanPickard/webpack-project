@@ -5,11 +5,9 @@ require('./style.scss');
 class Message extends React.Component {
   render() {
     return (<div>
-                <h1>{this.props.title}</h1>
-                <p>{this.props.message}</p>
-              </div>);
+          </div>);
   }
 }
 
-ReactDOM.render(<Message title="Email Joe" message="Can you email him?" />,
+ReactDOM.render(<Message/>,
     document.getElementById('react-container'));
